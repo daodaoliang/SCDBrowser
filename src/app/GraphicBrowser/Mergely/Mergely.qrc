@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/mergely">
+        <file>jquery-2.1.1.min.js</file>
+        <file>codemirror.css</file>
+        <file>codemirror.min.js</file>
+        <file>mergely.css</file>
+        <file>mergely.min.js</file>
+        <file>Browser.html</file>
+        <file>Compare.html</file>
+    </qresource>
+</RCC>

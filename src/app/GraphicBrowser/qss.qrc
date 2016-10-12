@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/backPro.png</file>
+        <file>Resources/forPro.png</file>
+        <file>Resources/jindutiao.gif</file>
+        <file>Resources/712.GIF</file>
+        <file>Resources/ddd.gif</file>
+        <file>Resources/runback.png</file>
+        <file>Resources/run.png</file>
+        <file>Resources/runhover.png</file>
+        <file>Resources/bg_pic2.png</file>
+        <file>Resources/background.png</file>
+        <file>Resources/biaoti.png</file>
+        <file>Resources/mainback.png</file>
+    </qresource>
+</RCC>

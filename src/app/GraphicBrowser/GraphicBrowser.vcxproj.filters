@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{6c446c21-a16a-483a-b6bd-14bf858099d1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_SFBM">
+      <UniqueIdentifier>{685b5aa5-f4b1-436b-bba8-ce56d3549bcd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Trial">
+      <UniqueIdentifier>{bc4ad312-d133-4239-b2da-0cb29fadb474}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{772ebe70-516b-448a-81f4-998461c18445}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{850deb09-4a50-463a-a766-7f4d3ea57d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Common\TinyXml">
+      <UniqueIdentifier>{e2602702-bf10-417e-9e94-9cb4da89e139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\CMarkup">
+      <UniqueIdentifier>{34098ac6-0821-4c74-b2b1-d0b7c9fc68b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="checkthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_checkthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_checkthread.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_checkthread.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_checkthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Mergely.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comparethread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_comparethread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_comparethread.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_comparethread.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_comparethread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="downhttp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ExportDoc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportICDInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportValidateExcel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixedprocessbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixedprocessbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_fixedprocessbar.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_fixedprocessbar.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixedprocessbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_graphicbrowser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManagerLite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\GraphicModelDiffImpl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\GraphicSCLModelImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\GraphicSvrAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iedtypeanalysor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_iedtypeanalysor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_iedtypeanalysor.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_iedtypeanalysor.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_iedtypeanalysor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IntervalCreator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IPWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="listenthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_listenthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_listenthread.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_listenthread.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_listenthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MacWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHmiGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyHmiGraphicsScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_MyHmiGraphicsScene.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_MyHmiGraphicsScene.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyHmiGraphicsScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="myitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_myitemdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_myitemdelegate.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_myitemdelegate.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_myitemdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLoadingThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyLoadingThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_MyLoadingThread.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_MyLoadingThread.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyLoadingThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="myprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_myprogress.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_myprogress.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_myprogress.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_myprogress.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mytabbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mytabbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_mytabbar.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_mytabbar.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mytabbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTableWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyTableWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_MyTableWidget.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_MyTableWidget.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyTableWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mytabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mytabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_mytabwidget.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_mytabwidget.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mytabwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qcomitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcomitemdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_qcomitemdelegate.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_qcomitemdelegate.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qcomitemdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qss.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qvalidatedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qvalidatedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_qvalidatedialog.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_qvalidatedialog.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qvalidatedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QXmlHighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QXmlHighlighter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_QXmlHighlighter.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_QXmlHighlighter.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QXmlHighlighter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qxmlviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qxmlviewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_qxmlviewer.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_qxmlviewer.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qxmlviewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Receivewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Receivewidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_Receivewidget.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_Receivewidget.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Receivewidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="regmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCDManger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCDValidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCLValid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_SearchDialog.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_SearchDialog.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Sendwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Sendwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_Sendwidget.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_Sendwidget.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Sendwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabInfoDataSetter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabInfoExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransSubsAddDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransSubsAddDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_TransSubsAddDlg.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_TransSubsAddDlg.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransSubsAddDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TrivalVersionCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirLoopDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VirLoopDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_VirLoopDialog.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_VirLoopDialog.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VirLoopDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\GraphicSvrImpl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\SCDDifferCompare.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\TableModelDiffImpl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\TableSCLModelImpl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\SCLModelSvrAdapter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\XLCreat.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\VoltageLevelAnalysor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinystr.cpp">
+      <Filter>Common\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxml.cpp">
+      <Filter>Common\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxmlerror.cpp">
+      <Filter>Common\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxmlparser.cpp">
+      <Filter>Common\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\SCDComparer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\Spliter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="checkconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_checkconfigdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_checkconfigdlg.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_checkconfigdlg.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_checkconfigdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\CMarkUp\Markup.cpp">
+      <Filter>Common\CMarkup</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicBrowserFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GraphicBrowserFrm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_SFBM\moc_GraphicBrowserFrm.cpp">
+      <Filter>Generated Files\Release_SFBM</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Trial\moc_GraphicBrowserFrm.cpp">
+      <Filter>Generated Files\Release_Trial</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GraphicBrowserFrm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="checkthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mergely\Mergely.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="comparethread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportProcessBar.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fixedprocessbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="graphicbrowser.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="iedtypeanalysor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="listenthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MyHmiGraphicsScene.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MyLoadingThread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myprogress.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myprogress.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mytabbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MyTableWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mytabwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qcomitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qss.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qvalidatedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QXmlHighlighter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qxmlviewer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Receivewidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SearchDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sendwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransSubsAddDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransSubsAddDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ValidateDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VirLoopDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="checkconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="checkconfigdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GraphicBrowserFrm.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mergely\Browser.html" />
+    <None Include="Mergely\codemirror.css" />
+    <None Include="Mergely\codemirror.min.js" />
+    <None Include="Mergely\Compare.html" />
+    <None Include="Mergely\jquery-2.1.1.min.js" />
+    <None Include="Mergely\mergely.css" />
+    <None Include="Mergely\mergely.min.js" />
+    <None Include="SCDBrowser.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\backPro.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\forPro.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\jindutiao.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\712.GIF">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ddd.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\runback.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\run.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\runhover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bg_pic2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\biaoti.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\mainback.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="downhttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ExportDoc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportICDInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ExportProcessBar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportValidateExcel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManagerLite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\GraphicModelDiffImpl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GraphicNameGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\GraphicSCLModelImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\GraphicSvrAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\GraphicSvrAdapterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IEDGraphics\hmidll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\IntervalCreator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IPWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MacWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_myprogress.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCDManger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCDValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCLValid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabInfoDataSetter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabInfoExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TransSubsAddDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrivalVersionCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ValidateDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\GraphicSvrImpl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\SCDDifferCompare.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\TableModelDiffImpl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\TableSCLModelImpl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\SCLModelSvrAdapter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\XLCreat.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\VoltageLevelAnalysor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinyxml\tinystr.h">
+      <Filter>Common\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinyxml\tinyxml.h">
+      <Filter>Common\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Spliter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_checkconfigdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\CMarkUp\Markup.h">
+      <Filter>Common\CMarkup</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCDBrowser.rc" />
+  </ItemGroup>
+</Project>

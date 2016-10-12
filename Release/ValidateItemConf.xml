@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--修改说明：在Item中，仅允许修改每个Item的Level，其他不允许修改！
+Level的取值分为三种：ERROR，WARN、NONE。
+其中，ERROR表示此条目为错误；WARN表示此条目为警告；NONE，表示不检测本条目；
+
+-->
+<ValidateItemConf class="SCDValidateItem">
+	<Item id="1">
+		<Desc>子网中IP重复，请修改为与其他IP不同的值。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.4.3节</Reference>
+	</Item>
+	<Item id="2">
+		<Desc>子网中Goose控制块的APPID范围应为0x0000到0x3FFF。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.81 附录C</Reference>
+	</Item>
+	<Item id="3">
+		<Desc>子网中Goose控制块的APPID重复，请修改为与其他APPID不同的ID。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.81 附录C</Reference>
+	</Item>
+	<Item id="4">
+		<Desc>子网中SMV控制块的APPID范围应为0X4000到0X7FFF。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.81 附录C</Reference>
+	</Item>
+	<Item id="5">
+		<Desc>子网中SMV控制块的APPID重复，请修改为与其他APPID不同的ID。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.81 附录C</Reference>
+	</Item>
+	<Item id="6">
+		<Desc>子网中GSE控制块的GOOSE组播MAC地址范围应为01-0C-CD-01-00-00到01-0C-CD-01-01-FF。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.81 附录B</Reference>
+	</Item>
+	<Item id="7">
+		<Desc>子网中GSE控制块的GOOSE组播MAC地址重复，请修改MAC地址。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.4.3节</Reference>
+	</Item>
+	<Item id="8">
+		<Desc>子网中采样控制块组播MAC地址范围应为01-0C-CD-04-00-00到01-0C-CD-04-01-FF。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.81 附录B</Reference>
+	</Item>
+	<Item id="9">
+		<Desc>子网中采样控制块组播MAC地址重复，请修改MAC地址。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.4.3节</Reference>
+	</Item>
+	<Item id="10">
+		<Desc>接入点S1不能出现在过程层网络中。</Desc>
+		<Level>ERROR</Level>
+		<Type>结构规范性校验</Type>
+		<Reference>DL/T 860.6 第9.4.2节</Reference>
+	</Item>
+	<Item id="11">
+		<Desc>IED的属性值name为空。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="12">
+		<Desc>IED名称存在重复，请修改名称。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="13">
+		<Desc>IED下发现AccessPoint的属性值name为空。</Desc>
+		<Level>ERROR</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="14">
+		<Desc>IED下LN0/Inputs/ExtRef中内部短地址与对侧装置的端子路径不匹配，确保DO对应DO，DA对应DA。</Desc>
+		<Level>ERROR</Level>
+		<Type>结构规范性校验</Type>
+		<Reference>Q/GDW 396 9.1.1 e） 和 10.1.1 g）</Reference>
+	</Item>
+	<Item id="15">
+		<Desc>IED下逻辑设备的Goose控制块的appID重复，请修改为与其他appID不同的ID。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.10节</Reference>
+	</Item>
+	<Item id="16">
+		<Desc>IED下逻辑设备的SV控制块的smvID重复，请修改为与其他smvID不同的ID。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.11节</Reference>
+	</Item>
+	<Item id="17">
+		<Desc>IED下逻辑设备的Report控制块的rptID重复，请修改为与其他rptID不同的ID。</Desc>
+		<Level>ERROR</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.8节</Reference>
+	</Item>
+	<Item id="18">
+		<Desc>IED下数据集中FCDA引用无效。</Desc>
+		<Level>ERROR</Level>
+		<Type>引用有效性校验</Type>
+		<Reference>DL/T 860.6 9.3.7</Reference>
+	</Item>
+	<Item id="20">
+		<Desc>L"[SubNetwork name = " + it3->first + L", " + L"ConnectedAP iedName = " + siedName + L" apName = " +
+     sapName + L"]下定义的控制块" + it1->first + L"在实例中未找到匹配的定义";</Desc>
+		<Level>WARN</Level>
+		<Type>引用有效性校验</Type>
+		<Reference>DL/T 860.6 第9.4.4节
+（GSE 9.4.4节，SMV第9.4.6节）</Reference>
+	</Item>
+	<Item id="21">
+		<Desc>IED的LDevice下未定义LLN0节点。</Desc>
+		<Level>WARN</Level>
+		<Type>结构规范性校验</Type>
+		<Reference>Q/GDW 396-2009 第6.1.1节</Reference>
+	</Item>
+	<Item id="22">
+		<Desc>IED的LDevice下未定义LPHD节点。</Desc>
+		<Level>WARN</Level>
+		<Type>结构规范性校验</Type>
+		<Reference>Q/GDW 396-2009 第6.1.1节</Reference>
+	</Item>
+	<Item id="23">
+		<Desc>IED的属性值Desc为空。</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="24">
+		<Desc>IED的Desc属性存在重复。</Desc>
+		<Level>WARN</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="25">
+		<Desc>IED的configVersion为空，应填写ICD文件版本号。</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>DL/T 860.6 第9.3.2节</Reference>
+	</Item>
+	<Item id="26">
+		<Desc>IED中AccessPoint的name属性值未命名为类似G1/M1/S1格式。</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>Q/GDW 396 第10.1.1节</Reference>
+	</Item>
+	<Item id="27">
+		<Desc>IED下DataSet的FCDA定义重复，请修改为与其他FCDA不同的定义。</Desc>
+		<Level>WARN</Level>
+		<Type>唯一性校验</Type>
+		<Reference>DL/T 860.6 第9.3.7节</Reference>
+	</Item>
+	<Item id="28">
+		<Desc>[SubNetwork name = " + it3->first + L", " + L"ConnectedAP iedName = " + m_sIEDName + L" apName = " +
+     m_sConnAPapName + L"]中未定义控制块" + m_sLDInst + L"/" + sCBName;</Desc>
+		<Level>WARN</Level>
+		<Type>结构规范性校验</Type>
+		<Reference>DL/T 860.6 第9.4.4节
+（GSE 9.4.4节，SMV第9.4.5节）</Reference>
+	</Item>
+	<Item id="29">
+		<Desc>[IED name = " + m_sIEDName + L", " + L"AccessPoint name = " + m_sAPName +  L", LDevice inst = " + m_sLDInst + L"]下LN0/Inputs/ExtRef中intAddr = "  + sintAddr + L"引用的对侧装置输出信号未找到匹配的定义
+</Desc>
+		<Level>WARN</Level>
+		<Type>引用有效性校验</Type>
+		<Reference>《智能变电站二次系统信息模型校验规范》 第7.15节</Reference>
+	</Item>
+	<Item id="30">
+		<Desc>[SubNetwork name = " + m_sSubNetworkName + L", " + L"ConnectedAP iedName = " + m_sConnAPiedName + L" apName = " +
+			m_sConnAPapName + L", " + m_sCommuCB + L" cbName = " + m_sCommuCBcbName + L"]中MinTime:" + sValue + L"建议推荐值为:2</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>Q/GDW 396-2012 第6.5.2节 c)</Reference>
+	</Item>
+	<Item id="31">
+		<Desc>[SubNetwork name = " + m_sSubNetworkName + L", " + L"ConnectedAP iedName = " + m_sConnAPiedName + L" apName = " +
+			m_sConnAPapName + L", " + m_sCommuCB + L" cbName = " + m_sCommuCBcbName + L"]中MaxTime:" + sValue + L"建议推荐值为:5000</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>Q/GDW 396-2012 第6.5.2节 c)</Reference>
+	</Item>
+	<Item id="32">
+		<Desc>[IED name = " + m_sIEDName + L", " + L"AccessPoint name = " + m_sAPName +  L", LDevice inst = " + m_sLDInst + L", " + m_sNodeName + L" name = " + sCBName + L"]中appID:"  + sappID + L"长度超过32个字符</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>工程经验(部分厂家的设备不支持32个字符以上的内容)</Reference>
+	</Item>
+	<Item id="33">
+		<Desc>[IED name = " + m_sIEDName + L", " + L"AccessPoint name = " + m_sAPName +  L", LDevice inst = " + m_sLDInst + L", " + m_sNodeName + L" name = " + sCBName + L"]中smvID:"  + ssmvID + L"长度超过32个字符.</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>工程经验(部分厂家的设备不支持32个字符以上的内容)</Reference>
+	</Item>
+	<Item id="34">
+		<Desc>[IED name = " + m_sIEDName + L", " + L"AccessPoint name = " + m_sAPName +  L", LDevice inst = " + m_sLDInst + L", " + m_sNodeName + L" name = " + sCBName + L"]中rptID:"  + srptID + L"长度超过32个字符</Desc>
+		<Level>WARN</Level>
+		<Type>属性规范性校验</Type>
+		<Reference>工程经验(部分厂家的设备不支持32个字符以上的内容)</Reference>
+	</Item>
+</ValidateItemConf>

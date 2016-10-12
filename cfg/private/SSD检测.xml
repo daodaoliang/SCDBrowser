@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- flag为登记标志（E为错误，W为警告，R为提示）isCheck=true为是否检测标记 -->
+<SCLConfig>
+	<CheckClass key="1" desc="语法格式校验">
+		<CheckItem key="CE18E6" name="XmlCheck" desc="XML格式规范" flag="E" isCheck="true" standard="GDW1396"/>
+
+	</CheckClass>
+	<CheckClass key="9" desc="SSD完整性检测">
+		<CheckItem key="970E2B" name="SSDSubstationCheck" desc="SubStation元素是否符合规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》">
+			<SubCheckItem key="A7407A" name="SSDSubstationCheck_Attr_R" desc="SubStation的name属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.1"/>
+            <SubCheckItem key="0F5B02" name="SSDSubstationCheck_Attr_O" desc="SubStation的desc及扩展dType、areaname、areadesc属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.1"/>
+			<SubCheckItem key="6361FA" name="SSDSubstationCheck_Child" desc="SubStation是否含有VoltageLevel子元素" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.1"/>
+		</CheckItem>
+		<CheckItem key="8F38E4" name="SSDVoltageLevelCheck" desc="VoltageLevel元素是否符合规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2">
+			<SubCheckItem key="FA197C" name="SSDVoltageLevelCheck_Attr_R" desc="VoltageLevel的name属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2"/>
+            <SubCheckItem key="04D972" name="SSDVoltageLevelCheck_Attr_O" desc="VoltageLevel的desc属性是否存在" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2"/>
+			<SubCheckItem key="898C81" name="SSDVoltageLevelCheck_Child_R" desc="VoltageLevel是否包含Bay子元素" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2"/>
+            <SubCheckItem key="FCCBBE" name="SSDVoltageLevelCheck_Child_O" desc="VoltageLevel是否包含Voltage子元素" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2"/>
+			<SubCheckItem key="207ADF" name="SSDVoltageLevelCheck_Voltage_Attr" desc="Voltage的multiplier、unit属性是否存在”" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.2"/>
+		</CheckItem>
+		<CheckItem key="5EEDF0" name="SSDBayCheck" desc="Bay元素是否符合规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3">
+			<SubCheckItem key="EE049E" name="SSDBayCheck_Attr_R" desc="Bay元素name属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+            <SubCheckItem key="B4B2D3" name="SSDBayCheck_Attr_O" desc="Bay元素desc及dType属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+			<SubCheckItem key="8834DD" name="SSDBayCheck_Child" desc="一次设备Bay元素含有子元素PowerTransformer或ConductingEquipment，ConnectivityNode， LNode；" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+		</CheckItem>
+		<CheckItem key="D07CE2" name="SSDPowerTransformerCheck" desc="变压器元素PowerTransformer是否符合规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4">
+			<SubCheckItem key="193D6E" name="SSDPowerTransformerCheck_Attr_R" desc="PowerTransformer的name、type属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+            <SubCheckItem key="0DB141" name="SSDPowerTransformerCheck_Attr_O" desc="PowerTransformer的desc、virtual属性是否存在" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+			<SubCheckItem key="03E869" name="SSDPowerTransformerCheck_Child_R" desc="PowerTransformer元素应含有子元素TransformerWinding" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+            <SubCheckItem key="308772" name="SSDPowerTransformerCheck_Child_O" desc="PowerTransformer元素应含有子元素LNode" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+			<SubCheckItem key="9B1D5D" name="SSDPowerTransformerCheck_TFWinding_Attr_R" desc="TransformerWinding的name、type属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+            <SubCheckItem key="99D42A" name="SSDPowerTransformerCheck_TFWinding_Attr_O" desc="TransformerWinding的desc、virtual属性是否存在" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+		</CheckItem>
+		<CheckItem key="F5EBE0" name="SSDConductingEquipmentCheck" desc="导电设备ConductingEquipment命名是否符合标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.5">
+			<SubCheckItem key="34D122" name="SSDConductingEquipmentCheck_Attr_R" desc="ConductingEquipment的name、type属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.5"/>
+            <SubCheckItem key="1FB03A" name="SSDConductingEquipmentCheck_Attr_O" desc="ConductingEquipment的desc、virtual属性是否存在" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.5"/>
+		</CheckItem>
+		<!--CheckItem key="A7D962" name="SSDCommonEquipmentCheck" desc="SubEquipment元素是否符合国网标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》">
+			<SubCheckItem key="D55244" name="SSDCommonEquipmentCheck_Attr" desc="Equipment应该含有name、desc、virtual、type属性" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+		</CheckItem-->
+		<CheckItem key="7BDF46" name="SSDConnectivityNodeCheck" desc="ConnectivityNode是否符合国网标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.6">
+			<SubCheckItem key="AC4363" name="SSDConnectivityNodeCheck_Attr_R" desc="ConnectivityNode的name、pathName属性是否存在" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.6"/>
+            <SubCheckItem key="93D278" name="SSDConnectivityNodeCheck_Attr_O" desc="ConnectivityNode的desc属性是否存在" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.6"/>
+		</CheckItem>
+		<CheckItem key="50B26C" name="SSDTerminalCheck" desc="设备端点Terminal对象是否符合标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4">
+			<SubCheckItem key="5F5FC8" name="SSDTerminalCheck_Attr_R" desc="Terminal的name、connectivityNode、substationName、voltageLevelName、 bayName和cNodeName属性是否存" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+            <SubCheckItem key="0C41E2" name="SSDTerminalCheck_Attr_O" desc="Terminal的desc属性是否存" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.4"/>
+		</CheckItem>
+		<CheckItem key="FBA7BB" name="SSDLNodeCheck" desc="LNode元素是否符合国网标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3">
+			<SubCheckItem key="F59B13" name="SSDLNodeCheck_Attr_R" desc="LNode元素应含有lnInst，lnClass，iedName，ldInst属性" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+            <SubCheckItem key="9CCF48" name="SSDLNodeCheck_Attr_O" desc="LNode元素应含有prefix、lnType属性" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》附录E.3"/>
+		</CheckItem>
+	</CheckClass>
+	<CheckClass key="13" desc="SSD规范性检测">
+		<CheckItem key="E0B8B6" name="SSDSubstationCheck_Unique" desc="SubStation是否唯一" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.2.a）"/>
+		<CheckItem key="FAD0DE" name="SSDSubstationCheck_Normative" desc="SubStation属性dType是否符合调度规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.2"/>
+		<CheckItem key="894442" name="SSDSubstationCheck_Other" desc="SubStation是否含有其他元素（LNode等）" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.2"/>
+		<CheckItem key="B179A8" name="SSDVoltageLevelCheck_Unique" desc="VoltageLevel是否唯一" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.3.b)"/>
+		<CheckItem key="E81083" name="SSDVoltageLevelCheck_UnNULL" desc="VoltageLevel值与Voltage是否一致" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.3.d)"/>
+		<CheckItem key="221E7A" name="SSDVoltageLevelCheck_Normative" desc="VoltageLevel的name、desc属性是否符合额定电压标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.3.b）"/>
+		<CheckItem key="6AD663" name="SSDVoltageLevelCheck_Other" desc="VoltageLevel是否含有其他元素（LNode等）" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.3.b）"/>
+		<CheckItem key="353D3C" name="SSDVoltageLevelCheck_Sort" desc="电压等级是否按照从高到低的顺序进行排序" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.3.a）"/>
+		<CheckItem key="A4401A" name="SSDBayCheck_AttrNormative" desc="一次设备间隔Bay元素的name、desc命名是否符合规范；" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.4.3.a)"/>
+		<CheckItem key="3C04EC" name="SSDBayCheck_dTypeNormative" desc="一次设备间隔Bay元素的扩展属性dType是否符合规范" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.4.3.b)"/>
+		<CheckItem key="0A9655" name="SSDPowerTransformerCheck_Unique" desc="PowerTransformer是否唯一" flag="E" isCheck="true" standard="一般要求"/>
+		<CheckItem key="F49CBC" name="SSDPowerTransformerCheck_AttrNormative" desc="变压器设备name属性是否符合国网标准" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.1.a）"/>
+		<CheckItem key="6AD8BF" name="SSDPowerTransformerCheck_WindingNormative" desc="PowerTransformer是否存在至少两个变压器绕组子元素" flag="W" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.1"/>
+		<CheckItem key="07E93F" name="SSDConductingEquipmentCheck_Unique" desc="ConductingEquipment在同一间隔内是否唯一" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.2.a）"/>
+		<CheckItem key="088D84" name="SSDConductingEquipmentCheck_IFLEquipment" desc="引出线IFL类设备对象name是否符合标准；" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.7.b）"/>
+		<CheckItem key="88181E" name="SSDTerminalCheck_NameNormative" desc="Terminal对象name属性是否按照Tn进行命名" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.6"/>
+		<CheckItem key="A27269" name="SSDTerminalCheck_Unique" desc="Terminal命名装置内是否唯一" flag="E" isCheck="true" standard="一般要求"/>
+		<CheckItem key="7BCC9B" name="SSDTerminalCheck_Valid" desc="Terminal的SubstationName、VoltageLevelName、bayName、cNodeName、connectivityNode索引是否有效" flag="E" isCheck="true" standard="一般要求"/>
+		<CheckItem key="BBEAF8" name="SSDConnectivityNodeCheck_PathUnique" desc="ConnectivityNode的pathName是否全站唯一" flag="E" isCheck="true" standard="《智能变电站SCD审查技术规范》7.2.3"/>
+		<CheckItem key="A897DD" name="SSDConnectivityNodeCheck_UnUsed" desc="ConnectivityNode未与Terminal关联" flag="E" isCheck="true" standard="《智能变电站SCD审查技术规范》7.2.3"/>
+		<CheckItem key="6D6D0B" name="SSDConnectivityNodeCheck_NameNormative" desc="ConnectivityNode的name属性是否按照Cn进行命名" flag="E" isCheck="true" standard="《智能变电站SSD建模技术规范》6.5.5.a)"/>
+	</CheckClass>
+</SCLConfig>

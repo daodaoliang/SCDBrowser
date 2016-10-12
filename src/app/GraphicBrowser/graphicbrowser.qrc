@@ -1,0 +1,6 @@
+<RCC>
+  <!--<qresource prefix="GraphicBrowser">-->
+  <qresource prefix="/">
+      <file>SCDBrowser.qss</file>
+    </qresource>
+</RCC>

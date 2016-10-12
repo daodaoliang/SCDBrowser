@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" /><title>Mergely - Simple Example</title>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta name="description" content="Merge and Diff your documents with diff online and share" />
+	<meta name="keywords" content="diff,merge,compare,jsdiff,comparison,difference,file,text,unix,patch,algorithm,saas,longest common subsequence" />
+	<meta name="author" content="Jamie Peabody" />
+
+	<!-- Requires jQuery -->
+	<script src="qrc:/mergely/jquery-2.1.1.min.js" type="text/javascript"></script>
+	
+	<!-- Requires CodeMirror -->
+	<script type="text/javascript" src="qrc:/mergely/codemirror.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="qrc:/mergely/codemirror.css" />
+	
+	<!-- Requires Mergely -->
+	<script type="text/javascript" src="qrc:/mergely/mergely.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="qrc:/mergely/mergely.css" />
+	
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#compare').mergely({
+				height : 'auto',
+				width : 'auto',
+				ignorews : true,
+				cmsettings: { readOnly: false },
+			});
+		});
+
+		function Refurbish() {
+			$('#compare').mergely('clear','lhs');
+			$('#compare').mergely('clear','rhs');
+
+			$('#compare').mergely('lhs', Qt.GetBaseXml());
+			$('#compare').mergely('rhs', Qt.GetOtherXml());
+		}
+
+		function setHeight(h) {
+			$('#mergely-resizer').css({ height: h});
+		}
+	</script>
+
+</head>
+<body>
+    <div id="mergely-resizer" style="height: 550px">
+        <div id="compare">
+        </div>
+	</div>
+</body>
+</html>
+         

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HmiDll", "..\IEDGraphics\HmiDll.vcxproj", "{BBF3154A-3E57-474E-A3C0-BBD136135876}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCDBrowser", "GraphicBrowser.vcxproj", "{2DD577C5-8926-43AD-9C15-729AF8B30EB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBF3154A-3E57-474E-A3C0-BBD136135876} = {BBF3154A-3E57-474E-A3C0-BBD136135876}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_Official|Win32 = Release_Official|Win32
+		Release_SFBM|Win32 = Release_SFBM|Win32
+		Release_Trial|Win32 = Release_Trial|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Debug|Win32.Build.0 = Debug|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_Official|Win32.ActiveCfg = Release|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_Official|Win32.Build.0 = Release|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_SFBM|Win32.ActiveCfg = Release_SFBM|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_SFBM|Win32.Build.0 = Release_SFBM|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_Trial|Win32.ActiveCfg = Release_Trial|Win32
+		{BBF3154A-3E57-474E-A3C0-BBD136135876}.Release_Trial|Win32.Build.0 = Release_Trial|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Debug|Win32.Build.0 = Debug|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_Official|Win32.ActiveCfg = Release|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_Official|Win32.Build.0 = Release|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_SFBM|Win32.ActiveCfg = Release_SFBM|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_SFBM|Win32.Build.0 = Release_SFBM|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_Trial|Win32.ActiveCfg = Release_Trial|Win32
+		{2DD577C5-8926-43AD-9C15-729AF8B30EB5}.Release_Trial|Win32.Build.0 = Release_Trial|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

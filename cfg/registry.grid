@@ -1,0 +1,8 @@
+#IceGrid.InstanceName=SsmsIceGrid
+
+#Ice.Default.Locator=SsmsIceGrid/Locator:default -h 192.168.1.92 -p 12000
+IceGrid.Registry.Client.Endpoints= tcp -p 32769  
+IceGrid.Registry.Server.Endpoints= tcp  
+IceGrid.Registry.Internal.Endpoints= tcp  
+IceGrid.Registry.Data=D:\\SSMS\\cfg\\registry.grid
+IceGrid.Registry.DynamicRegistration=1  

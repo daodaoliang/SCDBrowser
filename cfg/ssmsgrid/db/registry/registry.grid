@@ -1,0 +1,31 @@
+#注册服务器配置
+IceGrid.Registry.Client.Endpoints= tcp -p 12000  
+IceGrid.Registry.Server.Endpoints= tcp  
+IceGrid.Registry.Internal.Endpoints= tcp 
+IceGrid.Registry.AdminPermissionsVerifier=IceGrid/NullPermissionsVerifier 
+IceGrid.Registry.Data=E:\SSMSProject\Roof\cfg\ssmsgrid\db\registry
+IceGrid.Registry.DynamicRegistration=1 
+
+#服务器端配置
+Ice.MessageSizeMax = 102400
+
+SCLModelSvrAdapter.AdapterId=SCLModelSvrAdapter  
+SCLModelSvrAdapter.Endpoints=tcp 
+
+SecurityAdapter.AdapterId=SecurityAdapter  
+SecurityAdapter.Endpoints=tcp 
+
+HisDataSvrAdapter.AdapterId=HisDataSvrAdapter  
+HisDataSvrAdapter.Endpoints=tcp 
+
+GraphicSvrAdapter.AdapterId=GraphicSvrAdapter  
+GraphicSvrAdapter.Endpoints=tcp 
+
+SecurityMeasuresSvrAdapter.AdapterId=SecurityMeasuresSvrAdapter  
+SecurityMeasuresSvrAdapter.Endpoints=tcp 
+ 
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 12000 
+
+#客户端配置
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 12000
+Ice.MessageSizeMax = 102400
